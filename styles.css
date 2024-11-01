@@ -1,0 +1,67 @@
+h1 {
+    text-align: center; 
+    padding-bottom: 100px;
+    margin-bottom: 20px;  
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px; 
+}
+
+ 
+.styled-button {
+    background-color: #f2f2f2;
+    border: 2px solid transparent;
+    color: #000; 
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.styled-button:hover {
+    background-color: lightblue;
+    border-color: lightblue;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px; 
+}
+
+.submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: lightblue; 
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: deepskyblue; 
+}
+
+.output-container {
+    margin-top: 20px; 
+    padding: 10px;
+    border: 1px solid #ccc; 
+    background-color: #fff;
+    width: 300px; 
+    text-align: center; 
+}
